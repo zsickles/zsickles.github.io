@@ -1,4 +1,4 @@
-img, p, h1, h2, .divider, .name {
+img, p, h1, h2, .divider, .name, i {
 	width: 100%;
 	max-width: 600px;
 	margin-left: auto;
@@ -15,7 +15,7 @@ p {
 	font-family: "Crimson Text";
 }
 
-h1, h2, .name { 
+h1, h2, i, .name { 
 font-family: "Roboto";
 }
 .divider {
@@ -26,8 +26,12 @@ font-family: "Roboto";
 }
 .name {
     display: block;
-    font-size: 125%;
+    font-size: 105%;
     opacity: 0.50;
+}
+i {
+    display: block;
+    font-size: 125%;
 }
 .wide {
     max-width: 1200px;
