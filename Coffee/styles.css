@@ -1,4 +1,4 @@
-img, p, h1, h2, .divider, .name, i {
+img, p, h1, h2, .divider, .name, i, .date {
 	width: 100%;
 	max-width: 600px;
 	margin-left: auto;
@@ -15,12 +15,12 @@ p {
 	font-family: "Crimson Text";
 }
 
-h1, h2, i, .name { 
+h1, h2, i, .name, .date { 
 font-family: "Roboto";
 }
 .divider {
     height: 2px;
-    background-color: #0868ac;
+    background-color: #7F3500;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -28,6 +28,11 @@ font-family: "Roboto";
     display: block;
     font-size: 105%;
     opacity: 0.50;
+}
+.date {
+    display: block;
+    font-size: 80%;
+    opacity: 0.40;
 }
 i {
     display: block;
